@@ -1,118 +1,73 @@
-# 🌿 Calculadora de Emissão de CO₂
+# 🚀 Bootcamp GitHub Copilot - Código na Prática
 
-Uma aplicação web que estima a emissão de dióxido de carbono (CO₂) gerada em viagens, utilizando dados geográficos reais e fatores de emissão por tipo de transporte.  
-Ideal para quem deseja entender o impacto ambiental de deslocamentos e promover escolhas mais sustentáveis.
+IA que programa por você? Quase isso.
 
----
+Prepare-se para ser quem desenvolve com IA ao seu lado, dominando GitHub Copilot para criar APIs, refatorar código com segurança, gerar testes automatizados e construir projetos reais que aceleram sua produtividade.
 
-## 🚀 Funcionalidades
-
-- Busca automática de coordenadas de cidades via **OpenRouteService API**
-- Cálculo real da distância entre origem e destino
-- Opção de inserir distância manualmente
-- Fatores de emissão para diferentes meios de transporte
-- Interface moderna e responsiva em formato de landing page
-- Código simples, organizado e fácil de entender
+É um conteúdo completo e totalmente alinhado com o dia a dia de desenvolvedores modernos, desde configuração até engenharia de prompts, com mentorias práticas focadas em desenvolvimento assistido por IA.
 
 ---
 
-## 🖥️ Tecnologias Utilizadas
+##  🗂️ Principais passos com o GitHub Copilot: Um guia essencial
 
-| Tecnologia | Finalidade |
-|-----------|------------|
-| **HTML5** | Estrutura da aplicação |
-| **CSS3**  | Estilização e layout responsivo |
-| **JavaScript** | Lógica da calculadora e integração com API |
-| **OpenRouteService API** | Geocodificação e cálculo de distância |
+- Aprimorando seu desenvolvimento com o GitHub Copilot: O poder de ter um copiloto em seu fluxo de trabalho
+- O que é GitHub Copilot ?
+- Configurando e usando o GitHub Copilot
+- **LIVE DE LANÇAMENTO:** Adotando o GitHub Copilot e o novo fluxo de trabalho 
 
 ---
 
 
-## 📦 Como Executar o Projeto
+## 🗂️ Domine a engenharia de Prompt com o GitHub Copilot 
 
-```bash
-
-# Clone o repositório
-git clone https://github.com/mathewsph2/Bootcamp_GitHub_Copilot_Codigo_na_Pratica
-# Acesse a pasta
-cd Bootcamp_GitHub_Copilot_Codigo_na_Pratica
-
-# Depois, abra o arquivo:
-
-index.html
-
-# Você pode abrir diretamente no navegador ou usar extensões como Live Server no VS Code.
-
-```
-
-## 🔑 Configuração da API
-
-Este projeto utiliza a OpenRouteService API.
-
-Crie uma conta gratuita em:
-
-https://openrouteservice.org/
-
-Gere sua API Key
-
-Substitua no arquivo script.js:
-
-```
-js
-const API_KEY = "SUA_CHAVE_AQUI";
-``` 
+- Bases de prompt Engineering para o GitHub Copilot
+- Copilot Chat: Como Utilizar?
+- Conteúdo oficial recomendado do GitHub Copilot 
+- **DESAFIO DE CÓDIGO:** Entendendo prompt Engineering com o GitHub
 
 
-## 📁 Estrutura do Projeto
-
-/
-
-├── index.html
-
-├── CSS/
-
-│   └── style.css
-
-├── JS/
-
-│   └── script.js
-
-└── README.md
+---
 
 
+## 🗂️ GitHub Copilot em Ação: Criando projetos prontos para o mercado 
 
-## 🧮 Como o cálculo funciona
-
-A emissão é calculada pela fórmula:
-
-```
-Emissão (kg CO₂) = Distância (km) × Fator de emissão
-```
-
-Fatores utilizados:
-
-
-| Transporte | Emissão (kg CO₂ / km) | 
-|------------|-----------------------|
-|Biscicleta | 0.000 |
-|Carro      | 0.120 |
-|Ônibus     | 0.089 |
-|Caminhão   | 0.250 |
-
-
-
-## 🛠️ Melhorias Futuras
-
-- Exibir resultado diretamente na página (sem alert)
-
-- Gráficos comparativos entre meios de transporte
-
-- Histórico de cálculos
+- Copilot, além da IDE 
+- **DESAFIO DE PROJETO:** Calculadora EcoTrip: Simulador de impacto ambiental para viagens
 
 
 
 
-## ⭐ Contribua
+## 🤝 Como contribuir
 
-Se este projeto te ajudou ou inspirou, deixe uma estrela ⭐ no repositório.
-Sugestões e melhorias são sempre bem-vindas.
+- Abra uma issue para sugerir melhorias ou reportar erros.
+- Faça um fork e envie um Pull Request para contribuições de conteúdo.
+- Use padrões de commit claros e descreva a motivação da mudança no PR.
+
+
+
+## 📬 Contato
+- Coordenador / Maintainer: @mathewsph2 (GitHub)
+- Para dúvidas e sugestões: abra uma issue no repositório
+
+
+
+## 🔓 Open Source & Licença
+
+Este repositório é um projeto **open source**, criado com fins **educacionais e de aprendizado**.
+
+Todo o conteúdo aqui apresentado é um **sumário de estudos e práticas** desenvolvidas durante o bootcamp  
+**CI&T — Backend com Java e AWS**, não possuindo vínculo oficial com o HitHub.
+
+📜 O projeto está licenciado sob a **MIT License**, o que significa que você pode:
+- Usar o conteúdo para estudo ou referência
+- Modificar e adaptar o material
+- Compartilhar livremente
+
+Desde que respeitados os termos da licença.
+
+👉 Veja o arquivo [LICENSE] para mais detalhes.
+
+
+
+> ⚠️ Este repositório é um projeto **independente e educacional**, criado por um participante do bootcamp.
+> Não é um repositório oficial do GitHub.
