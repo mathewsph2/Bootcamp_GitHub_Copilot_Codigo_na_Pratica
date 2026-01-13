@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Calculadora de Emissão de CO₂</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>🌿 Calculadora de Emissão de CO₂</h1>
+      <p>Descubra o impacto ambiental das suas viagens e contribua para um futuro mais sustentável.</p>
+      <a href="#calculadora" class="hero-btn">Usar Calculadora</a>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="como-funciona">
+    <h2>Como funciona?</h2>
+    <p>
+      A calculadora utiliza dados geográficos reais para estimar a distância entre duas cidades
+      e calcula a emissão de CO₂ com base no meio de transporte escolhido.
+    </p>
+
+    <div class="steps">
+      <div class="step">
+        <span>1</span>
+        <p>Digite a cidade de origem e destino.</p>
+      </div>
+      <div class="step">
+        <span>2</span>
+        <p>Escolha o meio de transporte.</p>
+      </div>
+      <div class="step">
+        <span>3</span>
+        <p>Veja a emissão estimada em poucos segundos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALCULADORA -->
+  <section id="calculadora" class="calculator-section">
+    <div class="container">
+      <header class="header">
+        <h2>Calcule sua emissão</h2>
+      </header>
+
+      <main>
+        <div class="form-group">
+          <label for="origem">Origem</label>
+          <input type="text" id="origem" placeholder="Digite a cidade de origem" />
+        </div>
+
+        <div class="form-group">
+          <label for="destino">Destino</label>
+          <input type="text" id="destino" placeholder="Digite a cidade de destino" />
+        </div>
+
+        <div class="form-group">
+          <label for="distancia">Distância (km)</label>
+          <div class="inline-group">
+            <input type="number" id="distancia" value="0" min="0" />
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="distancia-manual" />
+            <label for="distancia-manual">Inserir distância manualmente</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Meio de Transporte</label>
+          <div class="transport-group">
+            <label class="transport-option">
+              <input type="radio" name="transporte" value="bicicleta" />
+              <span>Bicicleta</span>
+            </label>
+            <label class="transport-option">
+              <input type="radio" name="transporte" value="carro" />
+              <span>Carro</span>
+            </label>
+            <label class="transport-option">
+              <input type="radio" name="transporte" value="onibus" />
+              <span>Ônibus</span>
+            </label>
+            <label class="transport-option">
+              <input type="radio" name="transporte" value="caminhao" />
+              <span>Caminhão</span>
+            </label>
+          </div>
+        </div>
+
+        <button class="btn" type="button">Calcular Emissão</button>
+      </main>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Desenvolvido por <strong>Matheus</strong> — Projeto disponível no GitHub</p>
+  </footer>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
