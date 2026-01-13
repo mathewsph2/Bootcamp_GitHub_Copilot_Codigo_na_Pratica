@@ -33,10 +33,9 @@ Ideal para quem deseja entender o impacto ambiental de deslocamentos e promover 
 ```bash
 
 # Clone o repositório
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
-
+git clone https://github.com/mathewsph2/Bootcamp_GitHub_Copilot_Codigo_na_Pratica
 # Acesse a pasta
-cd NOME-DO-REPO
+cd Bootcamp_GitHub_Copilot_Codigo_na_Pratica
 
 # Depois, abra o arquivo:
 
