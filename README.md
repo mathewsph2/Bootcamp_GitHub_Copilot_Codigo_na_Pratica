@@ -15,7 +15,6 @@ Prepare-se para ser quem desenvolve com IA ao seu lado, dominando GitHub Copilot
 - Configurando e usando o GitHub Copilot
 - **LIVE DE LANÇAMENTO:** Adotando o GitHub Copilot e o novo fluxo de trabalho 
 
----
 
 
 ## 🗂️ Domine a engenharia de Prompt com o GitHub Copilot 
@@ -26,14 +25,25 @@ Prepare-se para ser quem desenvolve com IA ao seu lado, dominando GitHub Copilot
 - **DESAFIO DE CÓDIGO:** Entendendo prompt Engineering com o GitHub
 
 
----
-
 
 ## 🗂️ GitHub Copilot em Ação: Criando projetos prontos para o mercado 
 
 - Copilot, além da IDE 
 - **DESAFIO DE PROJETO:** Calculadora EcoTrip: Simulador de impacto ambiental para viagens
 
+
+---
+
+## 🎓 Mentores
+
+🟦 https://github.com/pabloNunes
+
+🟦 https://www.linkedin.com/in/pablonuneslopes/
+
+
+## 🧰 Ferramentas & Recursos
+
+- https://github.com/digitalinnovationone/github-copilot-getting-started
 
 
 
