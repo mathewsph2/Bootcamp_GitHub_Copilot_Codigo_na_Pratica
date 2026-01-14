@@ -66,7 +66,7 @@ Prepare-se para ser quem desenvolve com IA ao seu lado, dominando GitHub Copilot
 Este repositório é um projeto **open source**, criado com fins **educacionais e de aprendizado**.
 
 Todo o conteúdo aqui apresentado é um **sumário de estudos e práticas** desenvolvidas durante o bootcamp  
-**CI&T — Backend com Java e AWS**, não possuindo vínculo oficial com o HitHub.
+**GitHub Copilot Código na prática** da plataforma DIO, não possuindo vínculo oficial com o HitHub.
 
 📜 O projeto está licenciado sob a **MIT License**, o que significa que você pode:
 - Usar o conteúdo para estudo ou referência
