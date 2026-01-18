@@ -45,8 +45,11 @@ Prepare-se para ser quem desenvolve com IA ao seu lado, dominando GitHub Copilot
 
 - https://github.com/digitalinnovationone/github-copilot-getting-started
 
+---
 
+![Certificado GitHub Copilot](./GitHub_Copilot-Codigo_na_Pratica.jpg)
 
+---
 ## 🤝 Como contribuir
 
 - Abra uma issue para sugerir melhorias ou reportar erros.
